@@ -1,0 +1,34 @@
+duels-kits:
+  kit-example-name:
+    armor:
+      boots: VanillaItems::DIAMOND_BOOTS()
+      chesplate: VanillaItems::DIAMOND_CHESPLATE()
+      leggings: VanillaItems::DIAMOND_LEGGINGS()
+      helmet: VanillaItems::DIAMOND_HELMET()
+
+    armor-enchant:
+      - VanillaEnchantments::PROTECTION()
+    item:
+      - VanillaItems::DIAMOND_SWORD()
+
+duels-kb:
+  kit-example-name:
+    kb: 0.4
+    vertical-kb-limit: 0.4
+    attackcooldown: 10
+
+duels-maps:
+  world:
+    players-spawn:
+      1:
+        x: 256
+        y: 65
+        z: 253
+      2:
+        x: 256
+        y: 65
+        z: 259
+      spectator:
+        x: 256
+        y: 66
+        z: 256

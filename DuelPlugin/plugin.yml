@@ -1,0 +1,11 @@
+name: DuelPLugin
+main: Tanlotus\DuelPLugin\Main
+version: 1.0.0
+api: 5.0.0
+author: TANLOTUS
+
+
+permissions:
+  duel.command:
+    default: true
+    description: DuelCommand
